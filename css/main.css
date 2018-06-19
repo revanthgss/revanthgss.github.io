@@ -1,0 +1,92 @@
+body{
+	font-family: Helvetica, sans-serif;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+.profile-wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.profile__logo{
+	width:150px;
+	height:150px;
+	border:2px solid black;
+	border-radius:50%;
+}
+
+.header__title{
+	font-size:2.67em;
+	vertical-align: middle;
+}
+
+.description{
+	font-size: 1.33em;
+}
+
+.divider{
+	height:1px;
+}
+
+.section-title{
+	font-size: 2.33em;
+	margin-bottom: 15px;
+}
+
+.progress, .progress .determinate{
+	height:8px;
+
+}
+
+.card-content{
+	background: linear-gradient(to bottom, #448aff, #82b1ff);
+}
+
+.project-description{
+	margin:24px 0px!important;
+}
+
+.fab{
+	margin:0px 5px 5px 0px;
+	font-size: 2.33em;
+}
+
+.fa-facebook-square{
+	color:#3B5998;
+}
+
+.fa-linkedin{
+	color:#0077B5;
+}
+
+.fa-twitter{
+	color:#1DA1F2;
+}
+
+.fa-github{
+	color:#333;
+}
+
+.fa-medium{
+	color:black;
+}
+
+@media screen and (min-width: 601px) {
+	.card-image{
+		max-width: 35% !important;
+		overflow: hidden;
+	}
+
+
+	.card-image img{
+		height: 300px;
+		object-fit: cover;
+	}
+}
